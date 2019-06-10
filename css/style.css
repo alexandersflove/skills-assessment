@@ -60,6 +60,7 @@ select {
   min-height: 300px;
   background-color: #eee;
   overflow-y: scroll;
+  overflow-x: hidden;
   color: white;
 }
 
