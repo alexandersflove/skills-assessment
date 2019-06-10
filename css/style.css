@@ -176,10 +176,7 @@ a {
   display: none;
 }
 
-/*
-Just wanted to keep it a consistent size
-remove this media query to have it take up 80 percent of screen past 600px. 
-*/
+
 @media screen and (min-width: 600px) {
   .wrap {
     width: 350px;
