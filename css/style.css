@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+}
+
+.mr-5 {
+  margin-right: 5%;
+}
+
+.mr-10 {
+  margin-right: 10%;
+}
+
+/*Typograpy/default styles/spacing*/
+h1 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 80vw;
+  margin: 25px auto;
+}
+
+select {
+  background: white;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.wrap {
+  width: 100%;
+  margin: auto;
+  height: 450px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+  padding: 1.5em;
+}
+
+/*Contact classes and wrappers*/
+.contacts-wrap {
+  width: 100%;
+  min-height: 300px;
+  background-color: #eee;
+  overflow-y: scroll;
+  color: white;
+}
+
+.contact-entry:nth-child(odd) {
+  background-color: #212121;
+}
+
+.contact-entry:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+.contact-entry {
+  font-size: 12px;
+  height: 40px;
+  border: 1px black solid;
+  text-align: center;
+}
+
+.contract-entry--name {
+  display: inline-block;
+}
+
+.contract-entry-info {
+  display: inline-block;
+  padding-top: 3px;
+}
+
+/* 
+Didn't need these, although useful to have.
+.contract-entry-info--email {
+  display: inline-block;
+}
+
+.contract-entry-info--phone {
+  display: inline-block;
+} */
+
+.content-wrap {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dropdown {
+  background-color: #484848;
+  padding-top: 10px;
+  color: white;
+  display: block;
+  height: 60px;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  position: absolute;
+  top: 40px;
+  z-index: 100;
+}
+
+div.info-focus {
+  background-color: #484848;
+  color: #2da8ad;
+}
+
+div.info-focus a {
+  color: #2da8ad;
+  text-decoration: underline;
+}
+
+.col-left {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 35%;
+  border-right: 1px solid black;
+}
+
+.col-right {
+  display: inline-block;
+  color: grey;
+  position: relative;
+  height: 100%;
+  width: 60%;
+}
+
+/* Circle styling */
+.circle {
+  top: 5px;
+  position: relative;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.circle__red {
+  background-color: #ff0000;
+}
+
+.circle__green {
+  background-color: #00ff1e;
+}
+.circle__yellow {
+  background-color: #fffc00;
+}
+
+/* link styling */
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* State/event related stuff */
+.hide {
+  display: none;
+}
+
+/*
+Just wanted to keep it a consistent size
+remove this media query to have it take up 80 percent of screen past 600px. 
+*/
+@media screen and (min-width: 600px) {
+  .wrap {
+    width: 350px;
+  }
+}
